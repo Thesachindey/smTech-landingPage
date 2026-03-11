@@ -1,27 +1,35 @@
-# FINTRIXX - Amazon Growth Partner Landing Page
+# FINTRIXX Landing Page
 
-FINTRIXX is a modern, high-performance landing page designed for an Amazon Growth Agency. The project focuses on featuring interactive UI components, curved layouts, and responsive design tailored for conversion.
+A responsive landing page built from a Figma design replication task.
 
-[Landing Page Preview](https://fintrixx.vercel.app/)
+Live Demo:
+https://fintrixx.vercel.app/
 
-## 🚀 Key Features
+## Tech Stack
+- HTML5
+- Tailwind CSS
+- JavaScript
+- Google Fonts (Oswald)
 
-* **Neubrutalist UI:** Bold shadows, high-contrast borders, and vibrant orange accents.
-* **Curved Feature Section:** A custom-engineered arc layout for showcasing agency expertise.
-* **Fully Responsive:** Mobile-first approach using Tailwind's responsive breakpoints.
-* **Glassmorphism:** Navigation and cards utilize backdrop filters for a premium feel.
-* **Interactive Components:** Hover-animated CTA buttons and staggered image galleries.
+## Features
+- Responsive layout
+- Curved feature section
+- Interactive CTA buttons
+- Glass-style navigation bar
 
-## 🛠️ Tech Stack
+## Project Structure
+assets/
+index.html
+style.css
+README.md
 
-* **HTML5:** Semantic structure for SEO and accessibility.
-* **Tailwind CSS:** Utility-first styling for rapid, custom UI development.
-* **Google Fonts:** Utilizing 'Oswald' for a clean, professional typography.
+## Setup
+1. Clone the repository
+git clone <repo-url>
 
-## 📂 Project Structure
+2. Open the project folder
 
-```text
-├── assets/             # Images, SVGs, and brand logos
-├── index.html          # Main entry point
-├── style.css           # Custom CSS (if any) and Tailwind directives
-└── README.md           # Project documentation
+3. Run with Live Server
+
+## Deployment
+Deployed using Vercel
