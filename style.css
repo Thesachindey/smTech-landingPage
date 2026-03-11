@@ -6,7 +6,7 @@
 
 
  .clip-path-right {
-        clip-path: inset(0 0 0 60%); /* Only shows the right half of the circle */
+        clip-path: inset(0 0 0 60%); 
     }
  .clip-path-right-ex {
         clip-path: inset(0 0 0 70%); 

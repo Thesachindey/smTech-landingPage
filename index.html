@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LeadsBridge</title>
+    <link rel="icon" type="image/png" href="./assets/Logo.png">
+    <title>FINTRIXX-Your Full-Service Amazon Partner</title>
     <!-- tailwindcss -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- css  -->
@@ -18,9 +19,10 @@
 <body>
     <header class="bg-white  bg-gradient-to-b from-white via-orange-100 to-orange-200">
         <!-- nav bar -->
-        <nav class="flex items-center justify-between px-10 py-6 max-w-7xl mx-auto sticky top-0 bg-transparent z-50">
+        <nav
+            class="flex flex-col md:flex-row items-center justify-between px-15 py-6 max-w-7xl mx-auto sticky top-0 bg-transparent z-50">
             <div>
-                <img src="./assets/Logo.png" alt="LeadsBridge Logo">
+                <img src="./assets/Logo.png" alt="Logo">
             </div>
 
             <div class="flex items-center gap-8">
@@ -201,35 +203,36 @@
 
                     <div class="relative">
                         <img src="./assets/Logo.svg" alt="Fintrixx Logo" class="w-[200px] h-[200px] ">
-
                     </div>
 
-                    <div class="flex flex-col gap-4 ml-[-40px] z-20">
+                    <div class="hidden md:block">
+                        <div class=" flex  flex-col gap-4 ml-[-40px] z-20">
 
-                        <div
-                            class="bg-[#1a1a1a] border border-gray-800 px-2 py-3 rounded-2xl flex items-center gap-4  translate-x-12 shadow-xl">
-                            <span class="text-xl">🚀</span>
-                            <span class="text-white font-medium">Proven Expertise</span>
+                            <div
+                                class="bg-[#1a1a1a] border border-gray-800 px-2 py-3 rounded-2xl flex items-center gap-4  translate-x-12 shadow-xl">
+                                <span class="text-xl">🚀</span>
+                                <span class="text-white font-medium">Proven Expertise</span>
+                            </div>
+
+                            <div
+                                class="bg-[#1a1a1a] border border-gray-800 px-2 py-3 rounded-2xl flex items-center gap-4 translate-x-20 shadow-xl">
+                                <span class="text-xl">🚀</span>
+                                <span class="text-white font-medium">Maximized Visibility</span>
+                            </div>
+
+                            <div
+                                class="bg-[#1a1a1a] border border-gray-800 px-2 py-3 rounded-2xl flex items-center gap-4  translate-x-12 shadow-xl">
+                                <span class="text-xl">🚀</span>
+                                <span class="text-white font-medium">Strategic Growth</span>
+                            </div>
+
+                            <div
+                                class="bg-[#1a1a1a] border border-gray-800 px-2 py-3 rounded-2xl flex items-center gap-4  -translate-x-2 shadow-xl">
+                                <span class="text-xl">🚀</span>
+                                <span class="text-white font-medium">Exclusive Partnerships</span>
+                            </div>
+
                         </div>
-
-                        <div
-                            class="bg-[#1a1a1a] border border-gray-800 px-2 py-3 rounded-2xl flex items-center gap-4 translate-x-20 shadow-xl">
-                            <span class="text-xl">🚀</span>
-                            <span class="text-white font-medium">Maximized Visibility</span>
-                        </div>
-
-                        <div
-                            class="bg-[#1a1a1a] border border-gray-800 px-2 py-3 rounded-2xl flex items-center gap-4  translate-x-12 shadow-xl">
-                            <span class="text-xl">🚀</span>
-                            <span class="text-white font-medium">Strategic Growth</span>
-                        </div>
-
-                        <div
-                            class="bg-[#1a1a1a] border border-gray-800 px-2 py-3 rounded-2xl flex items-center gap-4  -translate-x-2 shadow-xl">
-                            <span class="text-xl">🚀</span>
-                            <span class="text-white font-medium">Exclusive Partnerships</span>
-                        </div>
-
                     </div>
                 </div>
 
@@ -406,15 +409,15 @@
         <section class="px-10 py-15 max-w-7xl mx-auto flex flex-col  bg-[#151515] text-center gap-10">
             <div class="flex flex-col-reverse md:flex-row items-center justify-center ">
                 <!-- img part  -->
-                <div class="flex-1 flex flex-row items-center justify-center gap-6 p-10">
+                <div class="flex-1 flex flex-col  md:flex-row items-center justify-center gap-2  md:gap-6 p-10">
                     <div class="relative">
                         <img src="./assets/image (4).png" alt="Data-img"
-                            class="w-64 h-[400px] object-cover rounded-[2.5rem] shadow-2xl border border-white/10">
+                            class=" w-full md:w-64 h-[400px] object-cover rounded-[2.5rem] shadow-2xl border border-white/10">
                     </div>
 
                     <div class="relative translate-y-20">
                         <img src="./assets/image (3).png" alt="Laptop-img"
-                            class="w-64 h-[400px] object-cover rounded-[2.5rem] shadow-2xl border border-white/10">
+                            class="w-full md:w-64 h-[400px] object-cover rounded-[2.5rem] shadow-2xl border border-white/10">
                     </div>
                 </div>
 
@@ -895,7 +898,7 @@
                             class="mx-auto mt-10 w-full max-w-4xl object-cover rounded-lg ">
                     </div>
 
-                    <div class="flex gap-10 items-center justify-center mt-6 text-sm">
+                    <div class="flex flex-col md:flex-row gap-10 items-center justify-center mt-6 text-sm">
                         <p class="text-gray-600 "><span><i
                                     class="fa-regular fa-envelope text-black mr-2"></i></span>leadsbridgesdemo@example.com
                         </p>
@@ -908,8 +911,55 @@
 
         </section>
 
-
     </main>
+
+    <!-- footer section  -->
+    <footer class="bg-[#151515] text-white pt-16 pb-8 px-10">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 pb-12">
+
+                <div class="space-y-6">
+                    <img src="./assets/Logo.png" alt="Fintrixx Logo">
+                    <p class="text-gray-300 text-sm  max-w-xs">
+                        FINTRIXX – Your Amazon Growth Partner Since 2016, we boost Amazon success with expert SEO, PPC,
+                        and growth strategies.
+                    </p>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-xl font-bold">Home</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href="#"
+                                class="hover:text-orange-400 transition-colors border-b border-gray-600 pb-1">Home</a>
+                        </li>
+                        <li><a href="#" class="hover:text-orange-400 transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition-colors">Services</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition-colors">Why Choose Us</a></li>
+                        <li><a href="#" class="hover:text-orange-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-xl font-bold">Contact</h3>
+                    <div class="flex items-center gap-3 text-gray-400">
+                        <span><i class="fa-regular fa-envelope text-gray-400 "></i></span>
+                        <a href="mailto:leadsbridgedemo@example.com"
+                            class="hover:text-orange-400">leadsbridgedemo@example.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+                <p>© 2025 Copyright Amazon</p>
+                <div class="flex gap-8">
+                    <a href="#" class="hover:text-white">Privacy Policy</a>
+                    <a href="#" class="hover:text-white">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 
