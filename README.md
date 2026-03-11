@@ -2,7 +2,7 @@
 
 FINTRIXX is a modern, high-performance landing page designed for an Amazon Growth Agency. The project focuses on a "Neubrutalist" and "Glassmorphic" aesthetic, featuring interactive UI components, curved layouts, and responsive design tailored for conversion.
 
-![Landing Page Preview](https://fintrixx.vercel.app/)
+[Landing Page Preview](https://fintrixx.vercel.app/)
 
 ## 🚀 Key Features
 
