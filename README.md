@@ -8,7 +8,6 @@ https://fintrixx.vercel.app/
 ## Tech Stack
 - HTML5
 - Tailwind CSS
-- JavaScript
 - Google Fonts (Oswald)
 
 ## Features
